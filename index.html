@@ -185,34 +185,18 @@
       <h3>Information Stored on Your Device</h3><span class="card-num">P-02</span>
     </div>
     <div class="card-body">
-      <p>Block Blitz saves only the minimum data needed for the game to work. All of it is stored locally using Android <code>SharedPreferences</code> (key: <code>BlockPuzzlePrefs</code>) — never uploaded anywhere.</p>
+      <p>Block Blitz saves only the minimum data needed for the game to function. All of it is stored locally on your device using Android <code>SharedPreferences</code> — never uploaded anywhere.</p>
       <div class="info-row">
         <span class="ir-label">Best Score</span>
-        <span class="ir-val">Your highest score ever, shown on the home screen. <span class="tag tg">Local only</span></span>
+        <span class="ir-val">Your highest score, shown on the home screen. <span class="tag tg">Local only</span></span>
       </div>
       <div class="info-row">
         <span class="ir-label">Last Level</span>
-        <span class="ir-val">The last level you reached, to track progression. <span class="tag tg">Local only</span></span>
+        <span class="ir-val">The level you reached, saved when you level up during gameplay. <span class="tag tg">Local only</span></span>
       </div>
       <div class="info-row">
         <span class="ir-label">Sound Setting</span>
-        <span class="ir-val">Whether in-game sound effects are on or off. <span class="tag tg">Local only</span></span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Vibration Setting</span>
-        <span class="ir-val">Whether vibration feedback is on or off (setting only — no VIBRATE permission is used). <span class="tag tg">Local only</span></span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Animations Setting</span>
-        <span class="ir-val">Whether UI animations are enabled or disabled. <span class="tag tg">Local only</span></span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Language</span>
-        <span class="ir-val">Your preferred in-app language. <span class="tag tg">Local only</span></span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Language Selected</span>
-        <span class="ir-val">Whether the language selection screen has been completed. <span class="tag tg">Local only</span></span>
+        <span class="ir-val">Whether in-game sound effects are enabled. Used internally by the game. <span class="tag tg">Local only</span></span>
       </div>
       <div class="notice n-info" style="margin-top:14px">
         <p>ℹ️ We do <strong>NOT</strong> collect your name, email, phone number, location, device ID, contacts, payment details, or any other personal information.</p>
@@ -496,28 +480,20 @@
       <h3>In-App Settings &amp; Features</h3><span class="card-num">T-06</span>
     </div>
     <div class="card-body">
-      <p>Block Blitz includes the following user-configurable settings, all stored locally on your device:</p>
+      <p>Block Blitz stores the following game data locally on your device:</p>
       <div class="info-row">
         <span class="ir-label">Sound Effects</span>
-        <span class="ir-val">Toggle on/off. Controls all in-game audio played via Android SoundPool.</span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Vibration</span>
-        <span class="ir-val">Toggle on/off. Setting is saved, but the app requests no VIBRATE permission.</span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Animations</span>
-        <span class="ir-val">Toggle on/off for performance or accessibility preference.</span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Language</span>
-        <span class="ir-val">Select preferred in-app language. Stored locally on your device.</span>
+        <span class="ir-val">The game reads your sound preference to play or mute in-game audio via Android SoundPool.</span>
       </div>
       <div class="info-row">
         <span class="ir-label">Best Score</span>
-        <span class="ir-val">Saved locally. Clearing app data or uninstalling will permanently reset your score.</span>
+        <span class="ir-val">Saved automatically during gameplay. Clearing app data or uninstalling will permanently reset it.</span>
       </div>
-      <p style="margin-top:12px">Core Nova Systems is not responsible for any loss of game progress or settings due to device changes, data clearing, or Android system updates.</p>
+      <div class="info-row">
+        <span class="ir-label">Last Level</span>
+        <span class="ir-val">Saved automatically when you level up. Used to track your game progression.</span>
+      </div>
+      <p style="margin-top:12px">Core Nova Systems is not responsible for any loss of game data due to device changes, app uninstallation, or Android system updates.</p>
     </div>
   </div>
 
