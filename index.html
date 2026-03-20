@@ -341,19 +341,21 @@
   <div class="card">
     <div class="card-head">
       <div class="card-icon" style="background:rgba(92,252,154,0.12);color:#5cfc9a">✅</div>
-      <h3>Acceptance of Terms</h3><span class="card-num">T-01</span>
+      <h3>Acceptance &amp; License</h3><span class="card-num">T-01</span>
     </div>
     <div class="card-body">
-      <p>These Terms and Conditions ("Terms") form a legally binding agreement between you ("User") and <strong>Core Nova Systems</strong> ("Developer") for use of the <strong>Block Blitz</strong> mobile application.</p>
-      <p>By downloading, installing, or playing Block Blitz, you confirm that:</p>
-      <ul>
-        <li>You have read and understood these Terms in full</li>
-        <li>You agree to be bound by these Terms</li>
-        <li>If you are under 13 years of age, a parent or guardian has consented on your behalf</li>
-        <li>You are using the application for lawful, personal, non-commercial purposes only</li>
-      </ul>
-      <div class="notice n-warn">
-        <p>⚠️ If you do not agree to any part of these Terms, please stop using Block Blitz and uninstall the application.</p>
+      <p>By downloading or playing Block Blitz, you agree to these Terms between you and <strong>Core Nova Systems</strong>. You are granted a <strong>limited, personal, non-commercial license</strong> to use the app on your own Android device.</p>
+      <div class="info-row">
+        <span class="ir-label">Personal Use</span>
+        <span class="ir-val">Playing on your own device. <span class="tag tg">✓ Permitted</span></span>
+      </div>
+      <div class="info-row">
+        <span class="ir-label">Redistribution</span>
+        <span class="ir-val">Copying, sharing, or modifying the APK. <span class="tag tr">✗ Not Permitted</span></span>
+      </div>
+      <div class="info-row">
+        <span class="ir-label">Commercial Use</span>
+        <span class="ir-val">Using the app for any commercial gain. <span class="tag tr">✗ Not Permitted</span></span>
       </div>
     </div>
   </div>
@@ -361,73 +363,35 @@
   <!-- T-02 -->
   <div class="card">
     <div class="card-head">
-      <div class="card-icon" style="background:rgba(252,92,125,0.12);color:#fc5c7d">📱</div>
-      <h3>License to Use</h3><span class="card-num">T-02</span>
+      <div class="card-icon" style="background:rgba(252,223,92,0.12);color:#fcdf5c">🎮</div>
+      <h3>Gameplay &amp; Scoring</h3><span class="card-num">T-02</span>
     </div>
     <div class="card-body">
-      <p>Core Nova Systems grants you a <strong>limited, non-exclusive, non-transferable, revocable, personal license</strong> to install and use Block Blitz on an Android device you own or control, solely for personal, non-commercial entertainment.</p>
-      <div class="info-row">
-        <span class="ir-label">Personal Use</span>
-        <span class="ir-val">Playing on your own Android device. <span class="tag tg">✓ Permitted</span></span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Redistribution</span>
-        <span class="ir-val">Copying or sharing the APK file. <span class="tag tr">✗ Not Permitted</span></span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Modification</span>
-        <span class="ir-val">Decompiling, reverse engineering, or modifying the app. <span class="tag tr">✗ Not Permitted</span></span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Commercial Use</span>
-        <span class="ir-val">Using the app for any commercial gain. <span class="tag tr">✗ Not Permitted</span></span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Sublicensing</span>
-        <span class="ir-val">Renting, leasing, or sublicensing the app. <span class="tag tr">✗ Not Permitted</span></span>
-      </div>
+      <p>Block Blitz is an <strong>8×8 block puzzle game</strong>. Drag blocks onto the board to fill rows or columns and earn points. The game ends when no block can be placed.</p>
+      <table class="score-table">
+        <thead><tr><th>Action</th><th>Points</th></tr></thead>
+        <tbody>
+          <tr><td>Clear 1 line</td><td>+100</td></tr>
+          <tr><td>Clear 2 lines</td><td>+250</td></tr>
+          <tr><td>Clear 3 lines</td><td>+400</td></tr>
+          <tr><td>Clear 4+ lines</td><td>+600+</td></tr>
+          <tr><td>Combo bonus</td><td>+50 per combo</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:10px">The game has <strong>10 levels</strong> with increasing score multipliers (×1.0 at Level 1 up to ×3.0 at Level 10). Scores are stored only on your device — there is no online leaderboard.</p>
     </div>
   </div>
 
   <!-- T-03 -->
   <div class="card">
     <div class="card-head">
-      <div class="card-icon" style="background:rgba(252,223,92,0.12);color:#fcdf5c">🎮</div>
-      <h3>Gameplay, Scoring &amp; Levels</h3><span class="card-num">T-03</span>
+      <div class="card-icon" style="background:rgba(124,92,252,0.12);color:#7c5cfc">©️</div>
+      <h3>Intellectual Property &amp; Restrictions</h3><span class="card-num">T-03</span>
     </div>
     <div class="card-body">
-      <p>Block Blitz is an <strong>8×8 grid block puzzle game</strong>. You drag blocks from a tray of up to 3 visible blocks onto the board. When a full row or column is filled, it is cleared and you earn points. The game ends when no block from the current tray can be placed anywhere on the board.</p>
-      <p><strong>Tray:</strong> Up to 3 blocks are shown at a time (from a pool of 5). A new set is generated when all 3 are used.</p>
-      <p><strong>Scoring System (from source code):</strong></p>
-      <table class="score-table">
-        <thead><tr><th>Action</th><th>Points</th></tr></thead>
-        <tbody>
-          <tr><td>Place a block on the board</td><td>+0</td></tr>
-          <tr><td>Clear 1 line (row or column)</td><td>+100</td></tr>
-          <tr><td>Clear 2 lines simultaneously</td><td>+250</td></tr>
-          <tr><td>Clear 3 lines simultaneously</td><td>+400</td></tr>
-          <tr><td>Clear 4+ lines simultaneously</td><td>+600 (+100 per extra line)</td></tr>
-          <tr><td>Combo bonus (per consecutive combo)</td><td>+50 × combo count</td></tr>
-        </tbody>
-      </table>
-      <p><strong>Level Multipliers:</strong> Each level applies a score multiplier. Higher levels reward more points per action.</p>
-      <table class="score-table">
-        <thead><tr><th>Level</th><th>Lines to Advance</th><th>Score Multiplier</th></tr></thead>
-        <tbody>
-          <tr><td>1</td><td>3</td><td>10/10 (×1.0)</td></tr>
-          <tr><td>2</td><td>5</td><td>11/10 (×1.1)</td></tr>
-          <tr><td>3</td><td>7</td><td>12/10 (×1.2)</td></tr>
-          <tr><td>4</td><td>10</td><td>13/10 (×1.3)</td></tr>
-          <tr><td>5</td><td>15</td><td>15/10 (×1.5)</td></tr>
-          <tr><td>6</td><td>20</td><td>17/10 (×1.7)</td></tr>
-          <tr><td>7</td><td>25</td><td>20/10 (×2.0)</td></tr>
-          <tr><td>8</td><td>30</td><td>22/10 (×2.2)</td></tr>
-          <tr><td>9</td><td>40</td><td>25/10 (×2.5)</td></tr>
-          <tr><td>10 (Max)</td><td>50</td><td>30/10 (×3.0)</td></tr>
-        </tbody>
-      </table>
-      <div class="notice n-note">
-        <p>ℹ️ Scores are stored only on your device. There is no online leaderboard — your score cannot be submitted or compared externally.</p>
+      <p>All content in Block Blitz — source code, graphics, audio, game logic, animations, and branding — is the exclusive property of <strong>Core Nova Systems</strong>. You may not decompile, reverse-engineer, copy, or create derivative works without prior written permission.</p>
+      <div class="notice n-warn">
+        <p>⚠️ Cheating, using bots or automation tools, or distributing modified APKs is strictly prohibited and will terminate your license immediately.</p>
       </div>
     </div>
   </div>
@@ -435,21 +399,13 @@
   <!-- T-04 -->
   <div class="card">
     <div class="card-head">
-      <div class="card-icon" style="background:rgba(124,92,252,0.12);color:#7c5cfc">©️</div>
-      <h3>Intellectual Property</h3><span class="card-num">T-04</span>
+      <div class="card-icon" style="background:rgba(252,156,92,0.12);color:#fc9c5c">⚠️</div>
+      <h3>Disclaimer &amp; Liability</h3><span class="card-num">T-04</span>
     </div>
     <div class="card-body">
-      <p>Block Blitz and all its components are the exclusive intellectual property of Core Nova Systems. This includes:</p>
-      <ul>
-        <li>The application name "Block Blitz" and all associated branding and icons</li>
-        <li>All source code — activities (SplashActivity, HomeActivity, GameActivity), managers (GameManager, ScoreManager, LevelManager, BlockGenerator, SoundManager, AnimationHelper, PreferencesManager), models (Block, BlockShape, GameBoard), and views (BoardView, BlockPreviewView)</li>
-        <li>All graphical assets, color schemes, and UI layouts</li>
-        <li>All audio assets: sfx_place, sfx_clear, level_up, blast_block, sfx_button, set_block, lose</li>
-        <li>Game logic, block generation algorithm, scoring system, and level progression design</li>
-        <li>All animations and visual effects</li>
-      </ul>
-      <div class="notice n-warn">
-        <p>⚠️ You may not create derivative works, mods, clones, or adaptations of Block Blitz without prior written permission from Core Nova Systems.</p>
+      <p>Block Blitz is provided <strong>"AS IS"</strong> with no warranties. Core Nova Systems does not guarantee uninterrupted gameplay, compatibility with all devices, or that locally stored data will never be lost.</p>
+      <div class="notice n-info">
+        <p>ℹ️ Block Blitz is <strong>100% free</strong> — no ads, no in-app purchases, no subscriptions. Our total liability to you shall not exceed $0 USD.</p>
       </div>
     </div>
   </div>
@@ -457,112 +413,14 @@
   <!-- T-05 -->
   <div class="card">
     <div class="card-head">
-      <div class="card-icon" style="background:rgba(92,223,252,0.12);color:#5cdffc">🚦</div>
-      <h3>Acceptable Use Policy</h3><span class="card-num">T-05</span>
-    </div>
-    <div class="card-body">
-      <p>You agree to use Block Blitz only for its intended purpose. The following are strictly prohibited:</p>
-      <ul>
-        <li>Hacking, cheating, or manipulating the game's scoring system or locally stored save data</li>
-        <li>Using automation tools, bots, scripts, or macros to play the game</li>
-        <li>Decompiling, disassembling, or reverse-engineering the application code</li>
-        <li>Distributing modified or cracked versions of the APK</li>
-        <li>Using the app for any commercial purpose without prior written consent</li>
-        <li>Interfering with the app's normal operation on your device</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- T-06 -->
-  <div class="card">
-    <div class="card-head">
-      <div class="card-icon" style="background:rgba(92,252,154,0.12);color:#5cfc9a">⚙️</div>
-      <h3>In-App Settings &amp; Features</h3><span class="card-num">T-06</span>
-    </div>
-    <div class="card-body">
-      <p>Block Blitz stores the following game data locally on your device:</p>
-      <div class="info-row">
-        <span class="ir-label">Sound Effects</span>
-        <span class="ir-val">The game reads your sound preference to play or mute in-game audio via Android SoundPool.</span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Best Score</span>
-        <span class="ir-val">Saved automatically during gameplay. Clearing app data or uninstalling will permanently reset it.</span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">Last Level</span>
-        <span class="ir-val">Saved automatically when you level up. Used to track your game progression.</span>
-      </div>
-      <p style="margin-top:12px">Core Nova Systems is not responsible for any loss of game data due to device changes, app uninstallation, or Android system updates.</p>
-    </div>
-  </div>
-
-  <!-- T-07 -->
-  <div class="card">
-    <div class="card-head">
-      <div class="card-icon" style="background:rgba(252,156,92,0.12);color:#fc9c5c">⚠️</div>
-      <h3>Disclaimer of Warranties</h3><span class="card-num">T-07</span>
-    </div>
-    <div class="card-body">
-      <p>Block Blitz is provided <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong> without any warranty of any kind, express or implied. Core Nova Systems expressly disclaims all warranties, including:</p>
-      <ul>
-        <li>We do not warrant the app is fit for any particular purpose</li>
-        <li>We do not guarantee error-free or uninterrupted gameplay on all devices</li>
-        <li>We do not guarantee compatibility with all Android versions or device models</li>
-        <li>We do not guarantee that locally stored data (scores, settings) will never be lost</li>
-      </ul>
-      <p>Your use of Block Blitz is entirely at your own risk.</p>
-    </div>
-  </div>
-
-  <!-- T-08 -->
-  <div class="card">
-    <div class="card-head">
-      <div class="card-icon" style="background:rgba(192,92,252,0.12);color:#c05cfc">⚖️</div>
-      <h3>Limitation of Liability</h3><span class="card-num">T-08</span>
-    </div>
-    <div class="card-body">
-      <p>To the maximum extent permitted by applicable law, Core Nova Systems shall not be liable for any direct, indirect, incidental, or consequential damages, including:</p>
-      <ul>
-        <li>Loss of game data, scores, or saved settings</li>
-        <li>Device issues resulting from use of the app</li>
-        <li>Loss of enjoyment due to app errors or crashes</li>
-      </ul>
-      <div class="notice n-info">
-        <p>ℹ️ Block Blitz is a <strong>free application</strong> with no subscription, no in-app purchases, and no fees of any kind. Our total liability to you, if any, shall not exceed /bin/sh USD.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- T-09 -->
-  <div class="card">
-    <div class="card-head">
-      <div class="card-icon" style="background:rgba(124,92,252,0.12);color:#7c5cfc">🔄</div>
-      <h3>Updates, Termination &amp; Governing Law</h3><span class="card-num">T-09</span>
-    </div>
-    <div class="card-body">
-      <p><strong>Updates:</strong> Core Nova Systems may update, modify, or discontinue Block Blitz at any time without notice. This includes changes to gameplay, scoring, levels, or these Terms. Continued use after updates constitutes acceptance.</p>
-      <p><strong>Termination:</strong> Your license terminates automatically if you violate these Terms (e.g. reverse engineering, unauthorized distribution). You may terminate at any time by uninstalling the app.</p>
-      <p><strong>Governing Law:</strong> These Terms are governed by applicable laws. Disputes shall first be addressed through direct communication. If unresolved within 30 days, both parties submit to competent courts in the Developer's jurisdiction.</p>
-      <p><strong>Severability:</strong> If any provision is found unenforceable, remaining provisions stay in full force.</p>
-    </div>
-  </div>
-
-  <!-- T-10 -->
-  <div class="card">
-    <div class="card-head">
       <div class="card-icon" style="background:rgba(92,252,154,0.12);color:#5cfc9a">✉️</div>
-      <h3>Contact &amp; Support</h3><span class="card-num">T-10</span>
+      <h3>Updates, Termination &amp; Contact</h3><span class="card-num">T-05</span>
     </div>
     <div class="card-body">
-      <p>For questions about these Terms, bug reports, or general support:</p>
+      <p>We may update these Terms or the app at any time. Continued use after changes means you accept the updated Terms. You may stop using the app at any time by uninstalling it.</p>
       <div class="info-row">
         <span class="ir-label">Developer</span>
         <span class="ir-val">Core Nova Systems</span>
-      </div>
-      <div class="info-row">
-        <span class="ir-label">App Package</span>
-        <span class="ir-val"><code>com.choco.blockblitz</code></span>
       </div>
       <div class="info-row">
         <span class="ir-label">Website</span>
@@ -570,14 +428,12 @@
       </div>
       <div class="info-row">
         <span class="ir-label">Email</span>
-        <span class="ir-val"><a href="/cdn-cgi/l/email-protection#137e767667677679727d7a2223232353747e727a7f3d707c7e" style="color:#7c5cfc"><span class="__cf_email__" data-cfemail="6e030b0b1a1a0b040f00075f5e5e5e2e09030f0702400d0103">[email&#160;protected]</span></a></span>
+        <span class="ir-val"><a href="mailto:meettejani1000@gmail.com" style="color:#7c5cfc">meettejani1000@gmail.com</a></span>
       </div>
-      <p style="margin-top:13px">We aim to respond to all inquiries within <strong>7 business days</strong>.</p>
     </div>
   </div>
 
 </div>
-
 <!-- FOOTER -->
 <footer>
   <div class="foot-blocks">
